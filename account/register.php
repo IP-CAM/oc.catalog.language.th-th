@@ -1,47 +1,47 @@
 <?php
 // Heading
-$_['heading_title']        = 'Register Account';
+$_['heading_title']        = 'ลงทะเบียนบัญชี';
 
 // Text
-$_['text_account']         = 'Account';
-$_['text_register']        = 'Register';
-$_['text_account_already'] = 'If you already have an account with us, please login at the <a href="%s">login page</a>.';
-$_['text_your_details']    = 'Your Personal Details';
-$_['text_your_address']    = 'Your Address';
-$_['text_newsletter']      = 'Newsletter';
-$_['text_your_password']   = 'Your Password';
-$_['text_agree']           = 'I have read and agree to the <a href="%s" class="agree"><b>%s</b></a>';
+$_['text_account']         = 'บัญชีรายชื่อ';
+$_['text_register']        = 'ลงทะเบียนบัญชี';
+$_['text_account_already'] = 'ถ้าคุณมีบัญชีรายชื่ออยู่แล้ว กรุณาเข้าสู่ระบบ <a href="%s">ที่นี่</a>.';
+$_['text_your_details']    = 'รายละเอียดข้อมูลสมาชิก';
+$_['text_your_address']    = 'รายละเอียดที่อยู่';
+$_['text_newsletter']      = 'ข่าวสารประชาสัมพันธ์';
+$_['text_your_password']   = 'รหัสผ่าน';
+$_['text_agree']           = 'ฉันได้อ่านเงื่อนไขและข้อตกลงในการใช้เว็บไซต์แล้ว <a href="%s" class="agree"><b>%s</b></a>';
 
 // Entry
 $_['entry_customer_group'] = 'Customer Group';
-$_['entry_firstname']      = 'First Name';
-$_['entry_lastname']       = 'Last Name';
-$_['entry_email']          = 'E-Mail';
-$_['entry_telephone']      = 'Telephone';
-$_['entry_fax']            = 'Fax';
-$_['entry_company']        = 'Company';
-$_['entry_address_1']      = 'Address 1';
-$_['entry_address_2']      = 'Address 2';
-$_['entry_postcode']       = 'Post Code';
-$_['entry_city']           = 'City';
-$_['entry_country']        = 'Country';
-$_['entry_zone']           = 'Region / State';
-$_['entry_newsletter']     = 'Subscribe';
-$_['entry_password']       = 'Password';
-$_['entry_confirm']        = 'Password Confirm';
+$_['entry_firstname']      = 'ชื่อ';
+$_['entry_lastname']       = 'นามสกุล';
+$_['entry_email']          = 'อีเมล์';
+$_['entry_telephone']      = 'โทรศัพท์';
+$_['entry_fax']            = 'แฟกส์';
+$_['entry_company']        = 'บริษัท';
+$_['entry_address_1']      = 'ที่อยู่ 1';
+$_['entry_address_2']      = 'ที่อยู่ 2';
+$_['entry_postcode']       = 'รหัสไปรษณีย์';
+$_['entry_city']           = 'อำเภอ';
+$_['entry_country']        = 'ประเทศ';
+$_['entry_zone']           = 'จังหวัด';
+$_['entry_newsletter']     = 'สมัครรับข่าวสารประชาสัมพันธ์';
+$_['entry_password']       = 'รหัสผ่าน';
+$_['entry_confirm']        = 'ยืนยันรหัสผ่าน';
 
 // Error
-$_['error_exists']         = 'Warning: E-Mail Address is already registered!';
-$_['error_firstname']      = 'First Name must be between 1 and 32 characters!';
-$_['error_lastname']       = 'Last Name must be between 1 and 32 characters!';
-$_['error_email']          = 'E-Mail Address does not appear to be valid!';
-$_['error_telephone']      = 'Telephone must be between 3 and 32 characters!';
-$_['error_address_1']      = 'Address 1 must be between 3 and 128 characters!';
-$_['error_city']           = 'City must be between 2 and 128 characters!';
-$_['error_postcode']       = 'Postcode must be between 2 and 10 characters!';
-$_['error_country']        = 'Please select a country!';
-$_['error_zone']           = 'Please select a region / state!';
-$_['error_custom_field']   = '%s required!';
-$_['error_password']       = 'Password must be between 4 and 20 characters!';
-$_['error_confirm']        = 'Password confirmation does not match password!';
-$_['error_agree']          = 'Warning: You must agree to the %s!';
+$_['error_exists']         = 'คำเตือน: อีเมล์นี้มีการลงทะเบียนบัญชีแล้ว!';
+$_['error_firstname']      = 'ชื่อต้องมีความยาวตั้งแต่ 1 ถึง 32 ตัวอักษร!';
+$_['error_lastname']       = 'นามสกุลต้องมีความยาวตั้งแต่ 1 ถึง 32 ตัวอักษร!';
+$_['error_email']          = 'อีเมล์ไม่ถูกต้อง!';
+$_['error_telephone']      = 'เบอร์โทรศัพท์ต้องมีความยาวตั้งแต่ 3 ถึง 32 ตัวอักษร!';
+$_['error_address_1']      = 'ที่อยู่ 1 ต้องมีความยาวตั้งแต่ 1 ถึง 128 ตัวอักษร!';
+$_['error_city']           = 'อำเภอต้องมีความขาวตั้งแต่ 1 ถึง 128 ตัวอักษร!';
+$_['error_postcode']       = 'รหัสไปรษณีย์ ต้องมีความยาว ตั้งแต่ 5 ตัวอักษร!';
+$_['error_country']        = 'กรุณาเลือกประเทศ!';
+$_['error_zone']           = 'กรุณาเลือกจังหวัด!';
+$_['error_custom_field']   = '%s ต้องระบุ!';
+$_['error_password']       = 'รหัสผ่านต้องมีความยาวตั้งแต่ 4 ถึง 20 ตัวอักษร!';
+$_['error_confirm']        = 'รหัสผ่านยืนยันไ่มตรงกัน!';
+$_['error_agree']          = 'คำเตือน: คูณต้องยอมรับข้อตกลงในการใช้บริการก่อน %s!';
